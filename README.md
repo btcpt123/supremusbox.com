@@ -4,4 +4,4 @@ Supremus Crossbox fornecer treinamento funcional e aulas de levantamento de peso
 
 O pagamento pode ser feito em dinheiro ou Bitcoin (Lightning).
 
-![](/static/img/the-box.jpg)
+![](/static/img/sala1.jpg)
