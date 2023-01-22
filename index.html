@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Supremus Box</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Supremus Box - Functional Training in Braga">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="static/css/buble.css" />
+  <link rel="shortcut icon" href="static/img/supremus.png" />
+</head>
+
+<body>
+  <nav>
+    <a href="#/eventos">Eventos</a>
+    <a href="#/contact">Contact</a>
+  </nav>
+  <div id="app">supremusbox.com is loading...</div>
+  <script>
+    window.$docsify = {
+      repo: 'https://github.com/supremusbox/supremusbox.com',
+      loadNavbar: false,
+      loadSidebar: '_sidebar.md',
+      basePath: window.location.pathname,
+      logo: 'static/img/supremus.png',
+      name: 'Supremus',
+      autoHeader: true,
+      search: 'auto',
+      relativePath: true,
+      routermode: 'history'
+    }
+  </script>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+  <script src="static/js/docsify.js"></script>
+  <script src="static/js/search.min.js"></script>
+</body>
+
+</html>
